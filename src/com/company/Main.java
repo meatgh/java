@@ -1,11 +1,15 @@
 package com.company;
 
+import java.awt.geom.Area;
+
 public class Main {
 
     public static void main(String[] args) {
         // write your code here
         System.out.println(HoursMinsSeconds.getDurationString(546));
         System.out.println(HoursMinsSeconds.getDurationString(75,58));
+        System.out.println("Area of the circle with the radius 5cm = " + AreaCalculator.area(5));
+        System.out.println("Area of the triangle with sides x & y = " + AreaCalculator.area(4, 4));
 
 //        System.out.println("run check ");
 //        byte myMinByteValue = Byte.MIN_VALUE;
