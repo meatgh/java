@@ -4,6 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
+        System.out.println(HoursMinsSeconds.getDurationString(546));
+        System.out.println(HoursMinsSeconds.getDurationString(75,58));
 
 //        System.out.println("run check ");
 //        byte myMinByteValue = Byte.MIN_VALUE;
@@ -120,6 +122,9 @@ public class Main {
 //        return position;
 
         MegaBytesConverter.printMegaBytesAndKiloBytes(-2500);
+        CalFeetAndInchesToCentimeters.calFeetAndInchesToCentimeters(0, 13);
+        CalFeetAndInchesToCentimeters.calFeetAndInchesToCentimeters(157);
+
 
 
 
