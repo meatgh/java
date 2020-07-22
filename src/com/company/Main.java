@@ -143,6 +143,7 @@ public class Main {
         System.out.println("Exiting at total number which is " + RangeEvenNumber.evenInRange(1, 20));
         System.out.println("Sum of all the digits in 125 is " +DigitSum.sumOfAllDigits( 3333));
         System.out.println("is the number 121 a palindrome ? : " + Palindrome.isPalindrome(-222));
+        System.out.println(FirstAndLastDigitSum.sumFirstAndLastDigit(2552));
 
 
 
