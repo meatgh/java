@@ -10,6 +10,7 @@ public class Main {
         System.out.println(HoursMinsSeconds.getDurationString(75,58));
         System.out.println("Area of the circle with the radius 5cm = " + AreaCalculator.area(5));
         System.out.println("Area of the triangle with sides x & y = " + AreaCalculator.area(4, 4));
+        System.out.println("The cat is playing ? : " + PlayingCat.isCatPlaying(true, 28));
 
 //        System.out.println("run check ");
 //        byte myMinByteValue = Byte.MIN_VALUE;
@@ -128,6 +129,20 @@ public class Main {
         MegaBytesConverter.printMegaBytesAndKiloBytes(-2500);
         CalFeetAndInchesToCentimeters.calFeetAndInchesToCentimeters(0, 13);
         CalFeetAndInchesToCentimeters.calFeetAndInchesToCentimeters(157);
+
+        System.out.println("Trying the switch method " + Switch.switchMethod('A'));
+        DayOfTheWeek.dayOfTheWeek(3);
+        System.out.println("Is leap year ?: "+NumberOfDaysInMonth.isLeapYear(2020));
+
+        for(int i =2; i <=8; i++){
+            System.out.println("10, 000 at " + i + "% interest = " + String.format("%.2f", CalculateInterest.calculateInterest(10000, i)));
+        }
+
+        PrimeCheck.primeCheck(10, 50);
+        SumOddRange.sumOdd(1, 11);
+        System.out.println("Exiting at total number which is " + RangeEvenNumber.evenInRange(1, 20));
+        System.out.println("Sum of all the digits in 125 is " +DigitSum.sumOfAllDigits( 3333));
+        System.out.println("is the number 121 a palindrome ? : " + Palindrome.isPalindrome(-222));
 
 
 
