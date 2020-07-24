@@ -144,6 +144,16 @@ public class Main {
         System.out.println("Sum of all the digits in 125 is " +DigitSum.sumOfAllDigits( 3333));
         System.out.println("is the number 121 a palindrome ? : " + Palindrome.isPalindrome(-222));
         System.out.println(FirstAndLastDigitSum.sumFirstAndLastDigit(2552));
+        System.out.println(EvenDigitSum.getEvenDigitSum(123456) + "Even digit sum");
+        System.out.println(GCD.getGreatestCommonDivisor(25, 15));
+        PrintFactors.printFactors(10);
+        System.out.println(PerfectNumber.isPerfectNumber(6));
+        NumberToWords.numberToWords(0);
+        System.out.println(LargestPrime.getLargestPrime(16));
+        System.out.println(" prime check on 217 " + PrimeCheck.isPrime(2  ));
+        //MinAndMaxInputChallenge.minAndMaxInputChallenge();
+        InputCalculator.inputThenPrintSumAndAverage();
+
 
 
 
